@@ -3,12 +3,15 @@ package com.shawn.leetcode.offer;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class CQueue {
+/**
+ *
+ */
+public class Solution08 {
 
   private final Deque<Integer> tailStack;
   private final Deque<Integer> headStack;
 
-  public CQueue() {
+  public Solution08() {
     tailStack = new ArrayDeque<>();
     headStack = new ArrayDeque<>();
   }
